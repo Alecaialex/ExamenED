@@ -18,8 +18,10 @@ edades = {
     "Perantano": 75
 }
 
+imprimirListaInversa(nombres)
+
 while True:
-    imprimirListaInversa(nombres)
     nombre = input("\nBuscar nombre: ")
-    if buscarPalabra(nombre, nombres): print(f"{nombre} tiene {edades[nombre]} años\n")
+    if nombre == "exit": break
+    elif buscarPalabra(nombre, nombres): print(f"{nombre} tiene {edades[nombre]} años\n")
     else: print("El nombre no existe...\n")
