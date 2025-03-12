@@ -92,11 +92,20 @@ edades = {
     "Perantano": 75
 }
 ```
+
+Estos items se verían así en una tabla:
+
+| Nombre | Edad |
+|--------|------|
+| Mengano|   0  |
+| Fulano |  25  |
+| Zutano |  50  |
+| Perantano| 75 |
+
 - [X] Declaración de listas y diciconarios
 - [ ] Uso de bucles
 - [ ] Uso de rangos
 - [ ] Uso de formateos de cadenas
-- [ ] Uso de condicionales
 
 <br>
 
