@@ -116,7 +116,14 @@ Estos items se verían así en una tabla:
 En esta parte del código vamos a crear el código que se va a ejecutar constantemente, donde usaremos las funciones creadas anteriormente para hacer funcionar el programa, este es el código:
 
 ```py
-
+imprimirListaInversa(nombres)
+while True:
+    nombre = input("\nBuscar nombre: ")
+    if nombre == "exit":
+        print("\nFIN DEL PROGRAMA")
+        break
+    elif buscarPalabra(nombre, nombres): print(f"{nombre} tiene {edades[nombre]} años")
+    else: print("El nombre no existe...")
 ```
 
 1. Comenzamos llamando a la función [**imprimirListaInversa**](#imprimirinversa) para antes de entrar en el bucle imprimir una vez todos los nombres en orden inverso.
