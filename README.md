@@ -61,6 +61,11 @@ Los pasos que sigue son los siguientes:
 
 3. Imprimimos la cadena `f"- {lista[item]}"` la cual nos imprimirá un - seguido del item actual en cada iteración (De modo inverso).
 
+- [X] Uso de bucles
+- [X] Uso de rangos
+- [X] Uso de formateos de cadenas
+- [ ] Uso de condicionales
+
 <br>
 
 <div id="nombresedades">
@@ -87,6 +92,11 @@ edades = {
     "Perantano": 75
 }
 ```
+- [X] Declaración de listas y diciconarios
+- [ ] Uso de bucles
+- [ ] Uso de rangos
+- [ ] Uso de formateos de cadenas
+- [ ] Uso de condicionales
 
 <br>
 
@@ -111,3 +121,6 @@ En esta parte del código vamos a crear el código que se va a ejecutar constant
 5. Añadimos una condición elif para que si no es exit, use la función **buscarPalabra** con el nombre introducido sobre la lista nombres, y si devuelve _True_ entonces imprimirá la siguiente cadena `f"{nombre} tiene {edades[nombre]} años"` en la cual formateamos el nombre introducido, y usamos `edades[nombre]` para buscar su edad ya que la clave del diccionario son los nombres, y los valores son las edades.
 
 6. :warning: En caso de que ninguna se cumpla, imprimiremos un mensaje informando de que el nombre no existe y el bucle volverá al principio para leer.
+
+- [X] Uso de bucles
+- [X] Uso de funciones
